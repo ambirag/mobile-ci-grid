@@ -183,11 +183,11 @@
 
   ### Running automation on a remote device
 
-10. Ask your colleague to setup "Appium and Updates" and section 3,4,5 and 7.
+10.1 Ask your colleague to setup "Appium and Updates" and section 3,4,5 and 7.
 
-10.1 Get his IP address and make sure its reachable `ping x.x.x.x` and you should get reply
+10.2 Get his IP address and make sure its reachable `ping x.x.x.x` and you should get reply
 
-10.2 Instead of `http://0.0.0.0:4723/wd/hub`, use `http://<your colleague\'s ip>:4723/wd/hub`
+10.3 Instead of `http://0.0.0.0:4723/wd/hub`, use `http://<your colleague\'s ip>:4723/wd/hub`
 
 10.3. Make sure your capabilities are correct and now run your automation
 
